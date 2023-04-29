@@ -2527,3 +2527,596 @@
 2023-04-14 23:04:39.779646 - IMAP HANDLER: This is an EML message!
 2023-04-14 23:04:39.784651 - IMAP HANDLER: Attachment #2 filename is: smime.p7s
 2023-04-14 23:04:39.784651 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 00:46:26.031494 - ***NEW START***
+2023-04-29 00:46:26.031494 - MAIN FUNCTION: Loading config file
+2023-04-29 00:46:26.032496 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 00:46:26.032496 - IMAP HANDLER: Retrieving emails!
+2023-04-29 00:46:27.063292 - IMAP HANDLER: Fetching message #1
+2023-04-29 00:46:27.064297 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:46:27.181404 - IMAP HANDLER: Fetching message #2
+2023-04-29 00:46:27.181404 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:46:27.191421 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:50:19.211242 - ***NEW START***
+2023-04-29 00:50:19.211242 - MAIN FUNCTION: Loading config file
+2023-04-29 00:50:19.211242 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 00:50:19.211242 - IMAP HANDLER: Retrieving emails!
+2023-04-29 00:50:20.055445 - IMAP HANDLER: Fetching message #1
+2023-04-29 00:50:31.570704 - ***NEW START***
+2023-04-29 00:50:31.570704 - MAIN FUNCTION: Loading config file
+2023-04-29 00:50:31.571705 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 00:50:31.571705 - IMAP HANDLER: Retrieving emails!
+2023-04-29 00:50:32.613382 - IMAP HANDLER: Fetching message #1
+2023-04-29 00:50:32.613382 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:50:32.762452 - IMAP HANDLER: Fetching message #2
+2023-04-29 00:50:32.762452 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:50:32.771470 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:50:33.812669 - IMAP HANDLER: Fetching message #3
+2023-04-29 00:50:33.812669 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:50:33.822678 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:50:34.497958 - IMAP HANDLER: Fetching message #4
+2023-04-29 00:50:34.497958 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:50:34.682130 - IMAP HANDLER: Fetching message #5
+2023-04-29 00:50:34.682130 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:50:34.694437 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:50:35.339617 - IMAP HANDLER: Fetching message #6
+2023-04-29 00:50:35.339617 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:50:35.354631 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:50:36.048139 - IMAP HANDLER: Fetching message #7
+2023-04-29 00:50:36.048139 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:50:36.064153 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:50:36.797888 - IMAP HANDLER: Fetching message #8
+2023-04-29 00:50:36.797888 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:50:36.811903 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:50:37.459721 - IMAP HANDLER: Fetching message #9
+2023-04-29 00:50:37.460736 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:50:37.469741 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:50:38.244390 - IMAP HANDLER: Fetching message #10
+2023-04-29 00:50:38.244390 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 00:50:38.244390 - IMAP HANDLER: Attachment #1 filename is: Timotej.pdf
+2023-04-29 00:50:38.244390 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 00:50:38.424377 - IMAP HANDLER: Fetching message #11
+2023-04-29 00:50:38.424377 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:50:38.434388 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:50:39.117283 - IMAP HANDLER: Fetching message #12
+2023-04-29 00:50:39.117283 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:50:39.131296 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:50:39.806911 - IMAP HANDLER: Fetching message #13
+2023-04-29 00:50:39.807913 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 00:50:39.807913 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 00:50:39.807913 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 00:50:39.988076 - IMAP HANDLER: Fetching message #14
+2023-04-29 00:50:39.989077 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 00:50:39.989077 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 00:50:39.989077 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 00:50:40.211279 - IMAP HANDLER: Fetching message #15
+2023-04-29 00:50:40.212280 - IMAP HANDLER: This message does have 2 attachments.
+2023-04-29 00:50:40.212280 - IMAP HANDLER: Attachment #1 filename is: [CVTSTU: mozny *SPAM*] SANS
+ NewsBites Vol_ 25 Num_ 020 : US Politicians Feel Impact of
+ Health Data Breach; More Need to Join GitHub in Mandatory MFA
+ for Developers; Prioritize Updating Jenkins to Mitigate
+ Serious Vulnerabilities.eml
+2023-04-29 00:50:40.212280 - IMAP HANDLER: This is an EML message!
+2023-04-29 00:50:40.217285 - IMAP HANDLER: Attachment #2 filename is: smime.p7s
+2023-04-29 00:50:40.217285 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 00:51:34.355917 - ***NEW START***
+2023-04-29 00:51:34.355917 - MAIN FUNCTION: Loading config file
+2023-04-29 00:51:34.356918 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 00:51:34.356918 - IMAP HANDLER: Retrieving emails!
+2023-04-29 00:51:35.307948 - IMAP HANDLER: Fetching message #1
+2023-04-29 00:51:35.307948 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:51:35.432166 - IMAP HANDLER: Fetching message #2
+2023-04-29 00:51:35.432166 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:51:35.442177 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:51:35.925071 - IMAP HANDLER: Fetching message #3
+2023-04-29 00:51:35.925071 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:51:35.935080 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:51:36.441588 - IMAP HANDLER: Fetching message #4
+2023-04-29 00:51:36.442602 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:51:36.596988 - IMAP HANDLER: Fetching message #5
+2023-04-29 00:51:36.596988 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:51:36.607998 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:51:37.093536 - IMAP HANDLER: Fetching message #6
+2023-04-29 00:51:37.093536 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:51:37.109550 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:51:37.578424 - IMAP HANDLER: Fetching message #7
+2023-04-29 00:51:37.578424 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:51:37.594438 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:51:38.090153 - IMAP HANDLER: Fetching message #8
+2023-04-29 00:51:38.090153 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:51:38.105166 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:51:38.555158 - IMAP HANDLER: Fetching message #9
+2023-04-29 00:51:38.555158 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:51:38.565167 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:51:39.134754 - IMAP HANDLER: Fetching message #10
+2023-04-29 00:51:39.134754 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 00:51:39.134754 - IMAP HANDLER: Attachment #1 filename is: Timotej.pdf
+2023-04-29 00:51:39.134754 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 00:51:39.308465 - IMAP HANDLER: Fetching message #11
+2023-04-29 00:51:39.308465 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:51:39.318474 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:51:39.790379 - IMAP HANDLER: Fetching message #12
+2023-04-29 00:51:39.791380 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:51:39.804392 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:51:40.284560 - IMAP HANDLER: Fetching message #13
+2023-04-29 00:51:40.284560 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 00:51:40.284560 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 00:51:40.284560 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 00:51:40.417446 - IMAP HANDLER: Fetching message #14
+2023-04-29 00:51:40.418447 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 00:51:40.418447 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 00:51:40.418447 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 00:51:40.580394 - IMAP HANDLER: Fetching message #15
+2023-04-29 00:51:40.581396 - IMAP HANDLER: This message does have 2 attachments.
+2023-04-29 00:51:40.581396 - IMAP HANDLER: Attachment #1 filename is: [CVTSTU: mozny *SPAM*] SANS
+ NewsBites Vol_ 25 Num_ 020 : US Politicians Feel Impact of
+ Health Data Breach; More Need to Join GitHub in Mandatory MFA
+ for Developers; Prioritize Updating Jenkins to Mitigate
+ Serious Vulnerabilities.eml
+2023-04-29 00:51:40.581396 - IMAP HANDLER: This is an EML message!
+2023-04-29 00:51:40.587401 - IMAP HANDLER: Attachment #2 filename is: smime.p7s
+2023-04-29 00:51:40.587401 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 00:52:23.204720 - ***NEW START***
+2023-04-29 00:52:23.204720 - MAIN FUNCTION: Loading config file
+2023-04-29 00:52:23.204720 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 00:52:23.204720 - IMAP HANDLER: Retrieving emails!
+2023-04-29 00:52:24.014733 - IMAP HANDLER: Fetching message #1
+2023-04-29 00:52:24.015734 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:52:24.119829 - IMAP HANDLER: Fetching message #2
+2023-04-29 00:52:24.119829 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:52:24.129838 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:52:24.544900 - IMAP HANDLER: Fetching message #3
+2023-04-29 00:52:24.545911 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:52:24.554920 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:52:24.990351 - IMAP HANDLER: Fetching message #4
+2023-04-29 00:52:24.990351 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:52:25.116439 - IMAP HANDLER: Fetching message #5
+2023-04-29 00:52:25.116439 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:52:25.127449 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:52:25.520715 - IMAP HANDLER: Fetching message #6
+2023-04-29 00:52:25.520715 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:52:25.536729 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:52:25.964055 - IMAP HANDLER: Fetching message #7
+2023-04-29 00:52:25.964055 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:52:25.980069 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:52:26.421882 - IMAP HANDLER: Fetching message #8
+2023-04-29 00:52:26.421882 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:52:26.436896 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:52:26.851011 - IMAP HANDLER: Fetching message #9
+2023-04-29 00:52:26.852016 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:52:26.862024 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:52:27.376941 - IMAP HANDLER: Fetching message #10
+2023-04-29 00:52:27.377943 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 00:52:27.377943 - IMAP HANDLER: Attachment #1 filename is: Timotej.pdf
+2023-04-29 00:52:27.377943 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 00:52:27.518950 - IMAP HANDLER: Fetching message #11
+2023-04-29 00:52:27.518950 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:52:27.528959 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:52:27.968862 - IMAP HANDLER: Fetching message #12
+2023-04-29 00:52:27.969862 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 00:52:27.982874 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 00:52:28.386017 - IMAP HANDLER: Fetching message #13
+2023-04-29 00:52:28.386017 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 00:52:28.386017 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 00:52:28.386017 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 00:52:28.471093 - IMAP HANDLER: Fetching message #14
+2023-04-29 00:52:28.471093 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 00:52:28.471093 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 00:52:28.471093 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 00:52:28.580193 - IMAP HANDLER: Fetching message #15
+2023-04-29 00:52:28.580193 - IMAP HANDLER: This message does have 2 attachments.
+2023-04-29 00:52:28.580193 - IMAP HANDLER: Attachment #1 filename is: [CVTSTU: mozny *SPAM*] SANS
+ NewsBites Vol_ 25 Num_ 020 : US Politicians Feel Impact of
+ Health Data Breach; More Need to Join GitHub in Mandatory MFA
+ for Developers; Prioritize Updating Jenkins to Mitigate
+ Serious Vulnerabilities.eml
+2023-04-29 00:52:28.580193 - IMAP HANDLER: This is an EML message!
+2023-04-29 00:52:28.586198 - IMAP HANDLER: Attachment #2 filename is: smime.p7s
+2023-04-29 00:52:28.586198 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:35:34.756102 - ***NEW START***
+2023-04-29 08:35:34.756102 - MAIN FUNCTION: Loading config file
+2023-04-29 08:35:34.757103 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 08:35:34.757103 - IMAP HANDLER: Retrieving emails!
+2023-04-29 08:35:36.106914 - IMAP HANDLER: Fetching message #1
+2023-04-29 08:35:36.107916 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:35:36.385157 - IMAP HANDLER: Fetching message #2
+2023-04-29 08:35:36.386158 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:35:36.395166 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:37:34.730318 - ***NEW START***
+2023-04-29 08:37:34.730318 - MAIN FUNCTION: Loading config file
+2023-04-29 08:37:34.731319 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 08:37:34.731319 - IMAP HANDLER: Retrieving emails!
+2023-04-29 08:37:35.551922 - IMAP HANDLER: Fetching message #1
+2023-04-29 08:37:35.551922 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:37:35.664025 - IMAP HANDLER: Fetching message #2
+2023-04-29 08:37:35.665025 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:37:35.674033 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:37:36.636877 - IMAP HANDLER: Fetching message #3
+2023-04-29 08:37:36.636877 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:37:36.646886 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:37:37.220771 - IMAP HANDLER: Fetching message #4
+2023-04-29 08:37:37.220771 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:37:37.346530 - IMAP HANDLER: Fetching message #5
+2023-04-29 08:37:37.347532 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:37:37.358543 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:37:37.951728 - IMAP HANDLER: Fetching message #6
+2023-04-29 08:37:37.951728 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:37:37.966741 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:37:38.516496 - IMAP HANDLER: Fetching message #7
+2023-04-29 08:37:38.516496 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:37:38.531502 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:37:39.124328 - IMAP HANDLER: Fetching message #8
+2023-04-29 08:37:39.124328 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:37:39.138339 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:37:39.717759 - IMAP HANDLER: Fetching message #9
+2023-04-29 08:37:39.717759 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:37:39.727768 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:37:40.445717 - IMAP HANDLER: Fetching message #10
+2023-04-29 08:37:40.446718 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:37:40.446718 - IMAP HANDLER: Attachment #1 filename is: Timotej.pdf
+2023-04-29 08:37:40.446718 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:37:40.615778 - IMAP HANDLER: Fetching message #11
+2023-04-29 08:37:40.615778 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:37:40.625788 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:37:41.214847 - IMAP HANDLER: Fetching message #12
+2023-04-29 08:37:41.214847 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:37:41.228860 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:37:41.785457 - IMAP HANDLER: Fetching message #13
+2023-04-29 08:37:41.786458 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:37:41.786458 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:37:41.786458 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:37:41.877774 - IMAP HANDLER: Fetching message #14
+2023-04-29 08:37:41.877774 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:37:41.877774 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:37:41.877774 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:37:42.011000 - IMAP HANDLER: Fetching message #15
+2023-04-29 08:37:42.011000 - IMAP HANDLER: This message does have 2 attachments.
+2023-04-29 08:37:42.012002 - IMAP HANDLER: Attachment #1 filename is: [CVTSTU: mozny *SPAM*] SANS
+ NewsBites Vol_ 25 Num_ 020 : US Politicians Feel Impact of
+ Health Data Breach; More Need to Join GitHub in Mandatory MFA
+ for Developers; Prioritize Updating Jenkins to Mitigate
+ Serious Vulnerabilities.eml
+2023-04-29 08:37:42.012002 - IMAP HANDLER: This is an EML message!
+2023-04-29 08:37:42.017006 - IMAP HANDLER: Attachment #2 filename is: smime.p7s
+2023-04-29 08:37:42.017006 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:40:18.506421 - ***NEW START***
+2023-04-29 08:40:18.507422 - MAIN FUNCTION: Loading config file
+2023-04-29 08:40:18.508423 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 08:40:18.508423 - IMAP HANDLER: Retrieving emails!
+2023-04-29 08:40:19.329442 - IMAP HANDLER: Fetching message #1
+2023-04-29 08:40:19.335447 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:40:19.483582 - IMAP HANDLER: Fetching message #2
+2023-04-29 08:40:19.484583 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:40:19.528623 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:40:20.111514 - IMAP HANDLER: Fetching message #3
+2023-04-29 08:40:20.111514 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:40:20.163562 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:40:20.712061 - IMAP HANDLER: Fetching message #4
+2023-04-29 08:40:20.713063 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:40:20.875210 - IMAP HANDLER: Fetching message #5
+2023-04-29 08:40:20.875210 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:40:20.930262 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:40:21.465286 - IMAP HANDLER: Fetching message #6
+2023-04-29 08:40:21.465286 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:40:21.540355 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:40:22.092781 - IMAP HANDLER: Fetching message #7
+2023-04-29 08:40:22.092781 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:40:22.169851 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:40:22.739831 - IMAP HANDLER: Fetching message #8
+2023-04-29 08:40:22.739831 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:40:22.808894 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:40:23.362915 - IMAP HANDLER: Fetching message #9
+2023-04-29 08:40:23.363915 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:40:23.414466 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:40:24.146172 - IMAP HANDLER: Fetching message #10
+2023-04-29 08:40:24.147174 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:40:24.147174 - IMAP HANDLER: Attachment #1 filename is: Timotej.pdf
+2023-04-29 08:40:24.147174 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:40:24.401717 - IMAP HANDLER: Fetching message #11
+2023-04-29 08:40:24.401717 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:40:24.452763 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:40:25.011154 - IMAP HANDLER: Fetching message #12
+2023-04-29 08:40:25.011154 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:40:25.073211 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:40:25.624106 - IMAP HANDLER: Fetching message #13
+2023-04-29 08:40:25.625107 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:40:25.625107 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:40:25.625107 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:40:25.759334 - IMAP HANDLER: Fetching message #14
+2023-04-29 08:40:25.760335 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:40:25.760335 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:40:25.760335 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:40:25.917233 - IMAP HANDLER: Fetching message #15
+2023-04-29 08:40:25.918234 - IMAP HANDLER: This message does have 2 attachments.
+2023-04-29 08:40:25.918234 - IMAP HANDLER: Attachment #1 filename is: [CVTSTU: mozny *SPAM*] SANS
+ NewsBites Vol_ 25 Num_ 020 : US Politicians Feel Impact of
+ Health Data Breach; More Need to Join GitHub in Mandatory MFA
+ for Developers; Prioritize Updating Jenkins to Mitigate
+ Serious Vulnerabilities.eml
+2023-04-29 08:40:25.918234 - IMAP HANDLER: This is an EML message!
+2023-04-29 08:40:25.948261 - IMAP HANDLER: Attachment #2 filename is: smime.p7s
+2023-04-29 08:40:25.948261 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:41:20.175922 - ***NEW START***
+2023-04-29 08:41:20.175922 - MAIN FUNCTION: Loading config file
+2023-04-29 08:41:20.176923 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 08:41:20.176923 - IMAP HANDLER: Retrieving emails!
+2023-04-29 08:41:21.185239 - IMAP HANDLER: Fetching message #1
+2023-04-29 08:41:21.185239 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:41:21.330877 - IMAP HANDLER: Fetching message #2
+2023-04-29 08:41:21.330877 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:41:21.340886 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:41:21.954798 - IMAP HANDLER: Fetching message #3
+2023-04-29 08:41:21.955799 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:41:21.965808 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:41:22.582891 - IMAP HANDLER: Fetching message #4
+2023-04-29 08:41:22.583893 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:41:22.750467 - IMAP HANDLER: Fetching message #5
+2023-04-29 08:41:22.750467 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:41:22.761477 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:41:23.369617 - IMAP HANDLER: Fetching message #6
+2023-04-29 08:41:23.369617 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:41:23.384630 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:41:23.993189 - IMAP HANDLER: Fetching message #7
+2023-04-29 08:41:23.994190 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:41:24.009203 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:41:24.635294 - IMAP HANDLER: Fetching message #8
+2023-04-29 08:41:24.636294 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:41:24.651308 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:41:25.233812 - IMAP HANDLER: Fetching message #9
+2023-04-29 08:41:25.234815 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:41:25.244824 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:41:25.989324 - IMAP HANDLER: Fetching message #10
+2023-04-29 08:41:25.989324 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:41:25.989324 - IMAP HANDLER: Attachment #1 filename is: Timotej.pdf
+2023-04-29 08:41:25.989324 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:41:26.171481 - IMAP HANDLER: Fetching message #11
+2023-04-29 08:41:26.171481 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:41:26.182490 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:41:26.776166 - IMAP HANDLER: Fetching message #12
+2023-04-29 08:41:26.776166 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:41:26.790178 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:41:27.429021 - IMAP HANDLER: Fetching message #13
+2023-04-29 08:41:27.430022 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:41:27.430022 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:41:27.430022 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:41:27.587460 - IMAP HANDLER: Fetching message #14
+2023-04-29 08:41:27.588460 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:41:27.588460 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:41:27.588460 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:41:27.776513 - IMAP HANDLER: Fetching message #15
+2023-04-29 08:41:27.776513 - IMAP HANDLER: This message does have 2 attachments.
+2023-04-29 08:41:27.776513 - IMAP HANDLER: Attachment #1 filename is: [CVTSTU: mozny *SPAM*] SANS
+ NewsBites Vol_ 25 Num_ 020 : US Politicians Feel Impact of
+ Health Data Breach; More Need to Join GitHub in Mandatory MFA
+ for Developers; Prioritize Updating Jenkins to Mitigate
+ Serious Vulnerabilities.eml
+2023-04-29 08:41:27.776513 - IMAP HANDLER: This is an EML message!
+2023-04-29 08:41:27.782518 - IMAP HANDLER: Attachment #2 filename is: smime.p7s
+2023-04-29 08:41:27.782518 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:42:31.767431 - ***NEW START***
+2023-04-29 08:42:31.767431 - MAIN FUNCTION: Loading config file
+2023-04-29 08:42:31.768432 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 08:42:31.768432 - IMAP HANDLER: Retrieving emails!
+2023-04-29 08:42:32.626139 - IMAP HANDLER: Fetching message #1
+2023-04-29 08:42:32.626139 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:42:32.741786 - IMAP HANDLER: Fetching message #2
+2023-04-29 08:42:32.741786 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:42:32.751796 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:42:33.173172 - IMAP HANDLER: Fetching message #3
+2023-04-29 08:42:33.174175 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:42:33.184184 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:42:33.607242 - IMAP HANDLER: Fetching message #4
+2023-04-29 08:42:33.607242 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:42:33.735766 - IMAP HANDLER: Fetching message #5
+2023-04-29 08:42:33.735766 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:42:33.746776 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:42:34.143286 - IMAP HANDLER: Fetching message #6
+2023-04-29 08:42:34.143286 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:42:34.159302 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:42:34.558506 - IMAP HANDLER: Fetching message #7
+2023-04-29 08:42:34.558506 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:42:34.574520 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:42:34.958483 - IMAP HANDLER: Fetching message #8
+2023-04-29 08:42:34.958483 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:42:34.972495 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:42:35.624466 - IMAP HANDLER: Fetching message #9
+2023-04-29 08:42:35.624466 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:42:35.634475 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:42:36.181545 - IMAP HANDLER: Fetching message #10
+2023-04-29 08:42:36.182544 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:42:36.182544 - IMAP HANDLER: Attachment #1 filename is: Timotej.pdf
+2023-04-29 08:42:36.182544 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:42:36.318476 - IMAP HANDLER: Fetching message #11
+2023-04-29 08:42:36.318476 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:42:36.328487 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:42:36.764907 - IMAP HANDLER: Fetching message #12
+2023-04-29 08:42:36.764907 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:42:36.778920 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:42:37.225872 - IMAP HANDLER: Fetching message #13
+2023-04-29 08:42:37.225872 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:42:37.225872 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:42:37.225872 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:42:37.355864 - IMAP HANDLER: Fetching message #14
+2023-04-29 08:42:37.356864 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:42:37.356864 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:42:37.356864 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:42:37.480687 - IMAP HANDLER: Fetching message #15
+2023-04-29 08:42:37.481689 - IMAP HANDLER: This message does have 2 attachments.
+2023-04-29 08:42:37.481689 - IMAP HANDLER: Attachment #1 filename is: [CVTSTU: mozny *SPAM*] SANS
+ NewsBites Vol_ 25 Num_ 020 : US Politicians Feel Impact of
+ Health Data Breach; More Need to Join GitHub in Mandatory MFA
+ for Developers; Prioritize Updating Jenkins to Mitigate
+ Serious Vulnerabilities.eml
+2023-04-29 08:42:37.481689 - IMAP HANDLER: This is an EML message!
+2023-04-29 08:42:37.486693 - IMAP HANDLER: Attachment #2 filename is: smime.p7s
+2023-04-29 08:42:37.486693 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:56:33.100842 - ***NEW START***
+2023-04-29 08:56:33.100842 - MAIN FUNCTION: Loading config file
+2023-04-29 08:56:33.101842 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 08:56:33.101842 - IMAP HANDLER: Retrieving emails!
+2023-04-29 08:56:33.906676 - IMAP HANDLER: Fetching message #1
+2023-04-29 08:56:33.906676 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:56:34.021781 - IMAP HANDLER: Fetching message #2
+2023-04-29 08:56:34.022782 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:56:34.032791 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:56:34.445629 - IMAP HANDLER: Fetching message #3
+2023-04-29 08:56:34.445629 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:56:34.456638 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:56:34.865923 - IMAP HANDLER: Fetching message #4
+2023-04-29 08:56:34.865923 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:56:34.978026 - IMAP HANDLER: Fetching message #5
+2023-04-29 08:56:34.979026 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:56:34.991037 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:56:35.378369 - IMAP HANDLER: Fetching message #6
+2023-04-29 08:56:35.378369 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:56:35.394384 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:56:35.766879 - IMAP HANDLER: Fetching message #7
+2023-04-29 08:56:35.766879 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:56:35.782893 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:56:36.199815 - IMAP HANDLER: Fetching message #8
+2023-04-29 08:56:36.199815 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:56:36.214828 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:56:36.623215 - IMAP HANDLER: Fetching message #9
+2023-04-29 08:56:36.624220 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:56:36.634228 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:56:37.143978 - IMAP HANDLER: Fetching message #10
+2023-04-29 08:56:37.143978 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:56:37.143978 - IMAP HANDLER: Attachment #1 filename is: Timotej.pdf
+2023-04-29 08:56:37.143978 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:56:37.287952 - IMAP HANDLER: Fetching message #11
+2023-04-29 08:56:37.287952 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:56:37.298962 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:56:37.694101 - IMAP HANDLER: Fetching message #12
+2023-04-29 08:56:37.694101 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:56:37.708114 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:56:38.116865 - IMAP HANDLER: Fetching message #13
+2023-04-29 08:56:38.117866 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:56:38.117866 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:56:38.117866 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:56:38.202728 - IMAP HANDLER: Fetching message #14
+2023-04-29 08:56:38.203729 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:56:38.203729 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:56:38.203729 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:56:38.311934 - IMAP HANDLER: Fetching message #15
+2023-04-29 08:56:38.311934 - IMAP HANDLER: This message does have 2 attachments.
+2023-04-29 08:56:38.311934 - IMAP HANDLER: Attachment #1 filename is: [CVTSTU: mozny *SPAM*] SANS
+ NewsBites Vol_ 25 Num_ 020 : US Politicians Feel Impact of
+ Health Data Breach; More Need to Join GitHub in Mandatory MFA
+ for Developers; Prioritize Updating Jenkins to Mitigate
+ Serious Vulnerabilities.eml
+2023-04-29 08:56:38.311934 - IMAP HANDLER: This is an EML message!
+2023-04-29 08:56:38.317939 - IMAP HANDLER: Attachment #2 filename is: smime.p7s
+2023-04-29 08:56:38.317939 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:59:22.778749 - ***NEW START***
+2023-04-29 08:59:22.778749 - MAIN FUNCTION: Loading config file
+2023-04-29 08:59:22.779750 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 08:59:22.779750 - IMAP HANDLER: Retrieving emails!
+2023-04-29 08:59:24.214564 - IMAP HANDLER: Fetching message #1
+2023-04-29 08:59:24.215519 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:59:24.333547 - IMAP HANDLER: Fetching message #2
+2023-04-29 08:59:24.333547 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:59:24.343058 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:59:24.824174 - IMAP HANDLER: Fetching message #3
+2023-04-29 08:59:24.824174 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:59:24.834183 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:59:25.236109 - IMAP HANDLER: Fetching message #4
+2023-04-29 08:59:25.236109 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:59:25.379221 - IMAP HANDLER: Fetching message #5
+2023-04-29 08:59:25.380222 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:59:25.390230 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:59:25.762840 - IMAP HANDLER: Fetching message #6
+2023-04-29 08:59:25.763841 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:59:25.779855 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:59:26.172981 - IMAP HANDLER: Fetching message #7
+2023-04-29 08:59:26.172981 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:59:26.187994 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:59:26.629399 - IMAP HANDLER: Fetching message #8
+2023-04-29 08:59:26.630400 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:59:26.644413 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:59:27.106701 - IMAP HANDLER: Fetching message #9
+2023-04-29 08:59:27.106701 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:59:27.116710 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:59:28.154302 - IMAP HANDLER: Fetching message #10
+2023-04-29 08:59:28.154302 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:59:28.154302 - IMAP HANDLER: Attachment #1 filename is: Timotej.pdf
+2023-04-29 08:59:28.154302 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 08:59:28.319489 - IMAP HANDLER: Fetching message #11
+2023-04-29 08:59:28.319489 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:59:28.329857 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:59:28.906240 - IMAP HANDLER: Fetching message #12
+2023-04-29 08:59:28.906240 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 08:59:28.920253 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 08:59:29.436206 - IMAP HANDLER: Fetching message #13
+2023-04-29 08:59:29.437207 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:59:29.437207 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:59:29.437207 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:59:29.544312 - IMAP HANDLER: Fetching message #14
+2023-04-29 08:59:29.544312 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 08:59:29.545314 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 08:59:29.545314 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 08:59:29.906467 - IMAP HANDLER: Fetching message #15
+2023-04-29 08:59:29.907467 - IMAP HANDLER: This message does have 2 attachments.
+2023-04-29 08:59:29.907467 - IMAP HANDLER: Attachment #1 filename is: [CVTSTU: mozny *SPAM*] SANS
+ NewsBites Vol_ 25 Num_ 020 : US Politicians Feel Impact of
+ Health Data Breach; More Need to Join GitHub in Mandatory MFA
+ for Developers; Prioritize Updating Jenkins to Mitigate
+ Serious Vulnerabilities.eml
+2023-04-29 08:59:29.907467 - IMAP HANDLER: This is an EML message!
+2023-04-29 08:59:29.914474 - IMAP HANDLER: Attachment #2 filename is: smime.p7s
+2023-04-29 08:59:29.914474 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 09:01:16.594313 - ***NEW START***
+2023-04-29 09:01:16.594313 - MAIN FUNCTION: Loading config file
+2023-04-29 09:01:16.594313 - MAIN FUNCTION: Config successfully loaded!
+2023-04-29 09:01:16.594313 - IMAP HANDLER: Retrieving emails!
+2023-04-29 09:01:17.393017 - IMAP HANDLER: Fetching message #1
+2023-04-29 09:01:17.393017 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 09:01:17.508055 - IMAP HANDLER: Fetching message #2
+2023-04-29 09:01:17.508055 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 09:01:17.520066 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 09:01:17.931121 - IMAP HANDLER: Fetching message #3
+2023-04-29 09:01:17.931121 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 09:01:17.942132 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 09:01:18.346173 - IMAP HANDLER: Fetching message #4
+2023-04-29 09:01:18.346173 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 09:01:18.456273 - IMAP HANDLER: Fetching message #5
+2023-04-29 09:01:18.457274 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 09:01:18.468284 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 09:01:18.893224 - IMAP HANDLER: Fetching message #6
+2023-04-29 09:01:18.893224 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 09:01:18.910239 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 09:01:19.293284 - IMAP HANDLER: Fetching message #7
+2023-04-29 09:01:19.293284 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 09:01:19.309298 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 09:01:19.694598 - IMAP HANDLER: Fetching message #8
+2023-04-29 09:01:19.695599 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 09:01:19.709611 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 09:01:20.105720 - IMAP HANDLER: Fetching message #9
+2023-04-29 09:01:20.105720 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 09:01:20.116729 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 09:01:20.627502 - IMAP HANDLER: Fetching message #10
+2023-04-29 09:01:20.627502 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 09:01:20.628503 - IMAP HANDLER: Attachment #1 filename is: Timotej.pdf
+2023-04-29 09:01:20.628503 - IMAP HANDLER: This attachment is not EML!
+2023-04-29 09:01:20.764995 - IMAP HANDLER: Fetching message #11
+2023-04-29 09:01:20.764995 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 09:01:20.776004 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 09:01:21.164355 - IMAP HANDLER: Fetching message #12
+2023-04-29 09:01:21.164355 - IMAP HANDLER: This message doesn't have an attachment.
+2023-04-29 09:01:21.178368 - MISP HANDLER: Processing e-mail without attachments
+2023-04-29 09:01:21.587708 - IMAP HANDLER: Fetching message #13
+2023-04-29 09:01:21.588708 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 09:01:21.588708 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 09:01:21.588708 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 09:01:21.674798 - IMAP HANDLER: Fetching message #14
+2023-04-29 09:01:21.675791 - IMAP HANDLER: This message does have 1 attachments.
+2023-04-29 09:01:21.675791 - IMAP HANDLER: Attachment #1 filename is: 
+2023-04-29 09:01:21.675791 - IMAP HANDLER: This is an EML message sent from Outlook!
+2023-04-29 09:01:21.791612 - IMAP HANDLER: Fetching message #15
+2023-04-29 09:01:21.791612 - IMAP HANDLER: This message does have 2 attachments.
+2023-04-29 09:01:21.791612 - IMAP HANDLER: Attachment #1 filename is: [CVTSTU: mozny *SPAM*] SANS
+ NewsBites Vol_ 25 Num_ 020 : US Politicians Feel Impact of
+ Health Data Breach; More Need to Join GitHub in Mandatory MFA
+ for Developers; Prioritize Updating Jenkins to Mitigate
+ Serious Vulnerabilities.eml
+2023-04-29 09:01:21.792614 - IMAP HANDLER: This is an EML message!
+2023-04-29 09:01:21.797618 - IMAP HANDLER: Attachment #2 filename is: smime.p7s
+2023-04-29 09:01:21.797618 - IMAP HANDLER: This attachment is not EML!

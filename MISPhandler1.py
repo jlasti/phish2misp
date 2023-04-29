@@ -15,6 +15,12 @@ class MISPhandler:
         self.domain_filter = domain_filter
         self.address_filter = address_filter
 
+    # Function to process a retrieved e-mail and submit it to MISP as well as the attachments
+    # First, we determine whether the e-mail contains an attachment.
+    # If it does not contain an attachment, we take the data of interest from the e-mail header, generate a JSON and
+    # submit it to MISP. If the e-mail does contain an attachment, we repeat the same process, but we also submit the
+    # attachments afterwards.
+
     def process_forwarded_email(self, email):
         json_file = self.generate_json(email, "forwarded")
 
@@ -42,24 +48,6 @@ class MISPhandler:
 
         else:
             self.post_json_to_misp(json_file)
-
-
-
-    def add_json_attachments(self, json_file, email):
-
-        return
-
-    def post_json_to_misp(self, json_file):
-        headers = {
-            'Accept': 'application/json',
-            'content-type': 'application/json',
-            'Authorization': str(self.key),
-        }
-
-        y = json.dumps(json_file)
-        data = y.replace('\n', '').replace('\r', '').encode()
-        response = requests.post(self.url, headers=headers, data=data, verify=False)
-        print(response)
 
     def generate_json(self, email, option):
         mail = mailparser.parse_from_bytes(email.obj.as_bytes())
@@ -186,3 +174,19 @@ class MISPhandler:
             }
 
         return final_json
+
+    def add_json_attachments(self, json_file, email):
+
+        return
+
+    def post_json_to_misp(self, json_file):
+        headers = {
+            'Accept': 'application/json',
+            'content-type': 'application/json',
+            'Authorization': str(self.key),
+        }
+
+        y = json.dumps(json_file)
+        data = y.replace('\n', '').replace('\r', '').encode()
+        response = requests.post(self.url, headers=headers, data=data, verify=False)
+        print(response)

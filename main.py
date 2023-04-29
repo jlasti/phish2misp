@@ -41,6 +41,11 @@ def main():
     except FileNotFoundError:
         log.log("MAIN FUNCTION: Config not found, using default values instead!")
 
+    # If key values are missing, log and exit
+    if conf_misp_url == '' or conf_misp_key == '' or conf_IMAP_server == '' or conf_IMAP_login == '' or conf_IMAP_pass == '':
+        log.log("MAIN FUNCTION: Missing key information, cannot start! Check config file!")
+        return
+
     misp_handler = MISPhandler.MISPhandler(conf_misp_url, conf_misp_key, log, True, True, True)
     email_handler = IMAPhandler.IMAPhandler(conf_IMAP_server, conf_IMAP_login, conf_IMAP_pass, log)
 
