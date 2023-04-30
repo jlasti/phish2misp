@@ -1,0 +1,217 @@
+Received: from DB8PR09MB3946.eurprd09.prod.outlook.com (2603:10a6:10:12d::9)
+ by PAXPR09MB5087.eurprd09.prod.outlook.com with HTTPS; Fri, 28 Oct 2022
+ 13:27:59 +0000
+Received: from BN9PR03CA0809.namprd03.prod.outlook.com (2603:10b6:408:13f::34)
+ by DB8PR09MB3946.eurprd09.prod.outlook.com (2603:10a6:10:12d::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5769.15; Fri, 28 Oct
+ 2022 13:27:58 +0000
+Received: from BN8NAM12FT011.eop-nam12.prod.protection.outlook.com
+ (2603:10b6:408:13f:cafe::59) by BN9PR03CA0809.outlook.office365.com
+ (2603:10b6:408:13f::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5769.15 via Frontend
+ Transport; Fri, 28 Oct 2022 13:27:58 +0000
+Authentication-Results: spf=pass (sender IP is 208.78.19.177)
+ smtp.mailfrom=bovada.lv; dkim=none (message not signed)
+ header.d=none;dmarc=bestguesspass action=none
+ header.from=bovada.lv;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of bovada.lv designates
+ 208.78.19.177 as permitted sender) receiver=protection.outlook.com;
+ client-ip=208.78.19.177; helo=outbound-1.bovada.lv; pr=C
+Received: from outbound-1.bovada.lv (208.78.19.177) by
+ BN8NAM12FT011.mail.protection.outlook.com (10.13.183.146) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5769.12 via Frontend Transport; Fri, 28 Oct 2022 13:27:57 +0000
+X-IncomingTopHeaderMarker: 
+ OriginalChecksum:F404F4BF010E60A1722EE2C9B0A0CA8BE91FCC2AFFDD0A4A196CA8E6D3F372F6;UpperCasedChecksum:3CAF720CC1480DA58AF8F20C639860CB32EE3E2CA5BEC178EA07EB8C7FA6E957;SizeAsReceived:372;Count:7
+Date: Fri, 28 Oct 2022 13:27:52 +0000 (UTC)
+From: service@bovada.lv
+To: ladarius992@hotmail.com
+In-Reply-To: 
+ <PAXPR09MB50870CA47C89B77FEFAD2C02E8339@PAXPR09MB5087.eurprd09.prod.outlook.com>
+Subject: Can I play from different state? (Ticket: U2-12261383)
+Content-Type: multipart/alternative;
+	boundary="----=_Part_94629_33245539.1666963670553"
+X-IncomingHeaderCount: 7
+Message-ID: 
+ <12153166-9790-48b1-b3cf-93fb8c4d4de0@BN8NAM12FT011.eop-nam12.prod.protection.outlook.com>
+Return-Path: service@bovada.lv
+X-MS-Exchange-Organization-ExpirationStartTime: 28 Oct 2022 13:27:58.0759
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 
+ 20e0a020-f3b1-4ad3-983b-08dab8e83a8f
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BN8NAM12FT011:EE_|DB8PR09MB3946:EE_
+X-MS-Exchange-Organization-AuthSource: 
+ BN8NAM12FT011.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 10/28/2022 12:59:54 PM
+X-MS-Office365-Filtering-Correlation-Id: 20e0a020-f3b1-4ad3-983b-08dab8e83a8f
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 208.78.19.177
+X-SID-PRA: SERVICE@BOVADA.LV
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 28 Oct 2022 13:27:57.7790
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 
+ 20e0a020-f3b1-4ad3-983b-08dab8e83a8f
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: 
+ BN8NAM12FT011.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB8PR09MB3946
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.9536396
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.5769.015
+X-Microsoft-Antispam-Mailbox-Delivery: 
+	rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:I;OFR:SpamFilterPass;ENG:(5062000305)(90000117)(90013020)(91025020)(91040095)(5061607266)(5061608174)(9050020)(9065024)(9100338)(1005210)(2008001134)(4810004)(4910033)(9920006)(9510006)(10105021)(9320005)(9230038);
+X-Message-Info: 
+	qZelhIiYnPk8TlHjW3PYxLxw7o/9ZpovrqoCSYTYtgRUpn1TJz20918+S/K63SIlEXB11gaNU3YDsMTmcAn8PqcPAcA51kGKoOqnO7GRtvz3NSYWXGe9PtPQ3bIz1+RMNIlGKqdwiu5bOwz8NClIZNXTHeVk1DQoUuPm0vbDyRVkKzWS4hfALkSjEETTB0H9C52dxkWv6IMHd90w6/eLtQ==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0tMQ==
+X-Microsoft-Antispam-Message-Info: 
+	=?utf-8?B?UjU4cmhsTEphdTlrVkgrcktzWWxRRkc3TzRzNVdrNnkzZ2FNTW03eWJYcGp4?=
+ =?utf-8?B?TmxKeUZpVGg5NXNxKzlsekd6bVlhQk5lUGh3OGp3TlJ5V3VtRVVtNHpDb1ow?=
+ =?utf-8?B?cHZlOGsyRVZzakt4bE1RWE9ncno2b1ErOW9yNEtXWEdzUFRKbkQxbVNZUzFi?=
+ =?utf-8?B?a3pGWGE1T3o2NGlWU1pvOWpCQ3lJQnh0TzYxcHBuTnpNeXl5cnBvMnF3NWxp?=
+ =?utf-8?B?bmlYTGdGcWNxNHlDRFpkemRpNG1aSGJBdnY5N0QvSGtucHgwd0U4eGpmRUhP?=
+ =?utf-8?B?dzJ6aUJja0FkdlVYRXIwOHg3eWpMc1JLMlZkdmtJK2dtcTJNU0hJdjR5UWlo?=
+ =?utf-8?B?REFmSlo1cXRQY2RWelhqV0xYWUFmZU9YUHVkQ1ZQbFVWV1dJZGhzVDhMcWM3?=
+ =?utf-8?B?QzBNZkVGNFB0R0JFNGJxNjcvRG1UeFRWb0F3TVZvZURUTFdMSXJ2Z3pLREY4?=
+ =?utf-8?B?eEpNVW1Eb3pxeGF3TWZ4WjV4Z2NyeFlLVTRwNzdFTW1Zek12cHFVZGd6OWly?=
+ =?utf-8?B?N0JEWVVQWFUzUGNGWWJ2cFZZVngyR1k4WDZzbVdtbkJxSm9XUFR6M0ZSOUNo?=
+ =?utf-8?B?WUN5NGF2MEt6MkpTRi9ZZDg2UXBrS0xjMTBNaE53V0dzSTJ2VW5HQjR4K1hh?=
+ =?utf-8?B?VnVOcDRWakRYNEZLZldvYkF0d29zUkRVL2xiNG1tTFBUQzRiVGNUZmdLbGxZ?=
+ =?utf-8?B?TDVFU1V6a1lUSk9qdTNkdGxQVzM1UWtRRHRJb3MzWUllMEpac21EVDZjT3ZU?=
+ =?utf-8?B?WWI3ZGgxZTdQQVV5R3FtY0lHdy9SZzdFSmVNenZDZERPUHZISDcrSW9oMUhD?=
+ =?utf-8?B?YURJS1F2UWYxVTUyRGVGb2MxckpWU2hkYnlUMlFrdUpGVitoZ2EraHdCL0pv?=
+ =?utf-8?B?cUJ5QW54YnRmMTRBZ0NaRHgvcHJMZ2hLUUZJZnRBeFFVSWRHK1NqMTlacHJh?=
+ =?utf-8?B?TzhuYXRFVG5HMWNEc2wzNllLVUEzTFZLYUk3U1hNK2p4ZlQwYXNlSXZ6SThm?=
+ =?utf-8?B?YVVRd2pZTkZKSEFSckZUTzZaTU1UUHg5dkg3U2tEbzJ3dVdURmtOUnlNNGdV?=
+ =?utf-8?B?YUN6bUtxWjZKUzdHY2ZPNlVZYmdQbllSMlBtZ3B6VlF2dHlOSzY5OE1kR3gz?=
+ =?utf-8?B?bkVKTzZkbGwzbUMwdjhwOVppY1pqa1FoV2JjR2hMYWdZdWZKcVIyZ2YrN1BD?=
+ =?utf-8?B?L293V2NIR2RBWTJwL2ZwOG5qSVlVdklKckV1cFFuS2pzQ20rR01yNmZDaGRW?=
+ =?utf-8?B?T2U5VUVGWEgxMVBOejJTdUFBT0lFc1FXc0d5MXNsV0QxbENlZ3owQ08xVnZL?=
+ =?utf-8?B?NjVGbkdWQzhCRmxjclhUMVRBVVphUDNsMTFtSzZWQk1ZNG5iK0FlblNJU0Nz?=
+ =?utf-8?B?V2JZWVZBbzRaczBGTmJqMFpsSVNmM3RTNnJmZ3dxdzRxWmtUbVJGeDdHdVdt?=
+ =?utf-8?B?YWhsRlNSTDZKUFJwaWQybGsyR3NQaGltTUh5NTUwZXliU3MzamJaZEtnOWMv?=
+ =?utf-8?B?TUFLUklkakNYQ3lXa2Z5dDJuUnRDQXV6L3E4QmhiM292SWRBZFRmc1A3Y0RG?=
+ =?utf-8?B?M1BCbzl2TjV0bVUzQXZnbUZDSS82YW5MTWJybGllU0JWNnBLSXVFclBpbnVi?=
+ =?utf-8?B?TzN3cEIvU3FLb0NRejFTTjh6SWZUYUc1VjhBb0dmaS9jMldna2lweXRjZTFj?=
+ =?utf-8?B?SXB4ZGdxY1lIczNZaDdvNi8yZlRZTzVtSFRWdm5BaFVZTG1aL3NWL0x3UGZv?=
+ =?utf-8?B?cVhoemFQcUpkM2hNNm1KbytwQ0tZRXlJM2JEaTQ5a0lrN08xVkVOWTN6Z09Q?=
+ =?utf-8?B?RWx1ekV3SlV1UjdRYjZtKzk5VS9IdFpRaDhoWkdqTDh0VC9EWmxqc1BkdzZu?=
+ =?utf-8?B?Ti9neGZWeEhpSHB4NU5JWWlGbnpxVFBNQUVrVlV2SS9CNU9QS1luWGVtRjF5?=
+ =?utf-8?B?eUNWR1ZnN2tndkdGQ2svY2E2emRHSlpIeEk5blhTVlRwb093Z0tmQTlRbm00?=
+ =?utf-8?B?NUVzbkJPWGQ4RmE2TVFTeUdxUHR0S1pqeXdQVGFLSkhORC9obC91dDdxczBV?=
+ =?utf-8?B?WFdoamFodFB1OStYQUtHTDR1NVJoeTB5VjliZUFWVUVPb3JZZm9GbUNiMHE4?=
+ =?utf-8?B?RGYyYWlCcytMcmhoVXRGWTh5TnpOWGFWMFZzdjNROTc2ZDZ6MVdaZmF0ZE1a?=
+ =?utf-8?B?RWlETkZCd0xvMWR2bWRjbEExcjNvekppY2x0Q3l1WlBnRTU2TngxUW40VVhR?=
+ =?utf-8?B?MHZRdVp3ajk2WDNoMW1oKys0NEJ1djB5bjkwY1ZobUlJTVVVOFFqVlJzT2pQ?=
+ =?utf-8?B?OVR4d2RZdTJRcVFuZlpTWFBPSFUwd2tJcGF4KzNXeHgrdnl6cSsrZ25WeXFI?=
+ =?utf-8?B?WEgzNll1YWQ5TWtGZkF5UEhkZS9YczFvSE9uaFFHTkppZ01VbFRDanRqWUVn?=
+ =?utf-8?B?VEcxQnJmZHhQa0ViVmc9PQ==?=
+MIME-Version: 1.0
+
+------=_Part_94629_33245539.1666963670553
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Hi Ladarius,
+ 
+Thanks for contacting Bovada Customer Service.
+ 
+We really hope you are doing great when receiving this message.
+ 
+In order to create an account with us, it will be necessary to place the address when you are currently residing. Please note that the system logs the IP with which you create your account and this must match the address you register. 
+ 
+We're available to help 24/7 if you need anything else.
+ 
+Thanks,
+ 
+Bovada Customer Service
+service@bovada.lv
+ 
+For the inside scoop on sports, poker, and for all our latest updates, join the Bovada Community today!
+----------------------
+-- Original Mail --
+----------------------
+Hello dear Bovada customer service,
+ 
+my name is Ladarius and I am from Wisconsin.
+ 
+I would like to register an account on Bovada to play poker games (I currently only play live poker, and would like to start playing seriously online) because I heard Bovada is the best site to play poker in USA.
+ 
+I am originally from Wisconsin, but I don't live there anymore, since I moved to my girlfriend who lives in San Francisco. My question is, when registering my Bovada account the site asks me for a zip code - should I input the ZIP code that I have on my Wisconsin ID card, or should I input the ZIP Code where I am actually staying in San Francisco?
+ 
+I don't want to get a new ID for California, because I work remotely (I work in IT) and my job headquarters is in Wisconsin, so it would be very problematic for me to change my ID for Californian.
+ 
+Can you please tell me what to do and if I am allowed to play at your tables? I don't want to cause any trouble for myself, so I am asking you.
+ 
+Thank you so much
+--
+This message has been scanned for viruses and dangerous content, and is believed to be clean.
+ 
+[BVDTPL]
+------=_Part_94629_33245539.1666963670553
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style>
+body, td {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+}
+p {
+  margin: 0px;
+}
+</style>
+</head>
+<body>
+<div>Hi&nbsp;Ladarius,</div>
+<div>&nbsp;</div>
+<div>Thanks for contacting Bovada Customer Service.</div>
+<div>&nbsp;</div>
+<div>We really hope you are doing great when receiving this message.</div>
+<div>&nbsp;</div>
+<div>In order to create an account with us, it will be necessary to place the address when you are currently residing. Please note that the system logs the IP with which you create your account and this must match the address you register.&nbsp;</div>
+<div>&nbsp;</div>
+<div>We're available to help 24/7 if you need anything else.</div>
+<div>&nbsp;</div>
+<div>Thanks,</div>
+<div>&nbsp;</div>
+<div>Bovada Customer Service</div>
+<div>service@bovada.lv</div>
+<div>&nbsp;</div>
+<div>For the inside scoop on sports, poker, and for all our latest updates, <a href="https://community.bovada.lv/" target="_blank">join the Bovada Community today!</a></div>
+<div>----------------------</div>
+<div>-- Original Mail --</div>
+<div>----------------------</div><div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">Hello dear Bovada customer service,</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">&nbsp;</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">my name is&nbsp;Ladarius and I am from Wisconsin.</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">&nbsp;</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">I would like to register an account on Bovada to play poker games (I currently only play live poker, and would like to start playing seriously online) because I heard Bovada is the best site to play poker in USA.</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">&nbsp;</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">I am originally from Wisconsin, but I don't live there anymore, since I moved to my girlfriend who lives in San Francisco. My question is, when registering my Bovada account the site asks me for a zip code - should I input the ZIP code that I have on my Wisconsin ID card, or should I input the ZIP Code where I am actually staying in San Francisco?</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">&nbsp;</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">I don't want to get a new ID for California, because I work remotely (I work in IT) and my job headquarters is in Wisconsin, so it would be very problematic for me to change my ID for Californian.</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">&nbsp;</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">Can you please tell me what to do and if I am allowed to play at your tables? I don't want to cause any trouble for myself, so I am asking you.</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">&nbsp;</div>
+<div style="font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 12pt; color: #000000; background-color: #ffffff;">Thank you so much</div>
+<br>-- <br>This message has been scanned for viruses and dangerous content, and is believed to be clean.<div>&nbsp;</div>
+<div>[BVDTPL]</div>
+</body>
+</html>
+------=_Part_94629_33245539.1666963670553--

@@ -22,10 +22,7 @@ class MISPhandler:
     # attachments afterwards.
 
     def process_forwarded_email(self, email):
-        json_file = self.generate_json(email, "forwarded")
-
-        if json_file == "Blocked":
-            return
+        json_file = self.generate_json_forwarded(email)
 
         attachments = email.attachments
         if attachments:
@@ -36,10 +33,7 @@ class MISPhandler:
             self.post_json_to_misp(json_file)
 
     def process_eml(self, email):
-        json_file = self.generate_json(email, "eml")
-
-        if json_file == "Blocked":
-            return
+        json_file = self.generate_json_eml(email)
 
         attachments = email.attachments
         if attachments:
@@ -49,131 +43,13 @@ class MISPhandler:
         else:
             self.post_json_to_misp(json_file)
 
-    def generate_json(self, email, option):
-        mail = mailparser.parse_from_bytes(email.obj.as_bytes())
+    def generate_json_eml(self, email):
 
-        email_date = str(email.date)[0:10]
-        email_uid = email.uid
-        email_subject = email.subject
-        email_body = email.text
-        email_ipsrc = 'None'
-        email_domain = 'None'
-        email_src = email.from_
+        return
 
-        if 'from' in mail.received[0]:
-            email_ipsrc = str(mail.received[0]['from']).split(' ')[1]
-            email_domain = str(mail.received[0]['from']).split(' ')[0]
+    def generate_json_forwarded(self, email):
 
-        if self.IP_filter:
-            for i in open("IPblacklist.txt", "r"):
-                print("Checking IP blacklist : " + str(i) + " / " + email_ipsrc)
-                if i == email_ipsrc:
-                    return "Blocked"
-
-        if self.domain_filter:
-            for i in open("domainblacklist.txt", "r"):
-                if i == email_domain:
-                    return "Blocked"
-
-        if self.address_filter:
-            for i in open("addressblacklist.txt", "r"):
-                if i == email_src:
-                    return "Blocked"
-
-        if option == "eml":
-            final_json = {
-                "Event":
-                    {
-                        "date": email_date,
-                        "threat_level_id": "4",
-                        "info": "Email submitted to MISP",
-                        "published": False,
-                        "analysis": "0",
-                        "distribution": "0",
-                        "Attribute":
-                            [{"type": "email",
-                              "category": "Network activity",
-                              "to_ids": False,
-                              "distribution": "0",
-                              "comment": "Email message without attachments",
-                              "value": email_uid
-                              },
-                             {"type": "ip-src",
-                              "category": "Network activity",
-                              "to_ids": False,
-                              "distribution": "0",
-                              "comment": "E-mail source IP address",
-                              "value": email_ipsrc
-                              },
-                             {"type": "domain",
-                              "category": "Network activity",
-                              "to_ids": False,
-                              "distribution": "0",
-                              "comment": "Sender domain of the email.",
-                              "value": email_domain
-                              },
-                             {"type": "email-src",
-                              "category": "Network activity",
-                              "to_ids": False,
-                              "distribution": "0",
-                              "comment": "E-mail source address",
-                              "value": email_src
-                              },
-                             {"type": "email-subject",
-                              "category": "Payload delivery",
-                              "to_ids": False,
-                              "distribution": "0",
-                              "comment": "E-mail subject",
-                              "value": email_subject
-                              },
-                             {"type": "email-body",
-                              "category": "Payload delivery",
-                              "to_ids": False,
-                              "distribution": "0",
-                              "comment": "E-mail body",
-                              "value": email_body
-                              },
-                             ]
-                    }
-            }
-
-        else:
-            final_json = {
-                "Event":
-                    {
-                        "date": email_date,
-                        "threat_level_id": "4",
-                        "info": "Email submitted to MISP",
-                        "published": False,
-                        "analysis": "0",
-                        "distribution": "0",
-                        "Attribute":
-                            [{"type": "email",
-                              "category": "Network activity",
-                              "to_ids": False,
-                              "distribution": "0",
-                              "comment": "Email message without attachments",
-                              "value": email_uid
-                              },
-                             {"type": "email-subject",
-                              "category": "Payload delivery",
-                              "to_ids": False,
-                              "distribution": "0",
-                              "comment": "E-mail subject",
-                              "value": email_subject
-                              },
-                             {"type": "email-body",
-                              "category": "Payload delivery",
-                              "to_ids": False,
-                              "distribution": "0",
-                              "comment": "E-mail body",
-                              "value": email_body
-                              },
-                             ]
-                    }
-            }
-
-        return final_json
+        return
 
     def add_json_attachments(self, json_file, email):
 

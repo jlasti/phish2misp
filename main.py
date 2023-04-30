@@ -1,20 +1,17 @@
-import os
 import logger
 import configparser
 import IMAPhandler
 import MISPhandler
-import imap_tools
-from imap_tools import MailBox, MailMessage
 
+'''
+Main class, first loads the config file, starts logging and creates instances for IMAP and MISP handlers
+'''
 
-###
-# Main class, first loads the config file and then proceeds accordingly.
-###
 
 def main():
-    ###
-    # Initialize variables loaded from the config file, create logger, create MISP and IMAP handlers
-    ###
+    """
+    Default values for variables
+    """
 
     conf_save_locally = True  # save emails locally after downloading them
     conf_misp_url = ''  # URL addr of MISP instance to connect to
@@ -25,6 +22,10 @@ def main():
     log = logger.Logger("log.txt")
     log.log("MAIN FUNCTION: Loading config file")
     config = configparser.ConfigParser()
+
+    """
+    Load values from config file
+    """
 
     try:
         config.read('config.ini')
@@ -41,14 +42,23 @@ def main():
     except FileNotFoundError:
         log.log("MAIN FUNCTION: Config not found, using default values instead!")
 
-    # If key values are missing, log and exit
+    """
+    Check if the required values are loaded
+    """
+
     if conf_misp_url == '' or conf_misp_key == '' or conf_IMAP_server == '' or conf_IMAP_login == '' or conf_IMAP_pass == '':
-        log.log("MAIN FUNCTION: Missing key information, cannot start! Check config file!")
+        log.log("MAIN FUNCTION: Config file is missing key information, cannot start! Check config file!")
         return
 
+    """
+    Create instances for handlers
+    """
     misp_handler = MISPhandler.MISPhandler(conf_misp_url, conf_misp_key, log, True, True, True)
     email_handler = IMAPhandler.IMAPhandler(conf_IMAP_server, conf_IMAP_login, conf_IMAP_pass, log)
 
+    """
+    Start the downloading and extraction process
+    """
     email_handler.retrieve_emails(conf_save_locally, misp_handler)
 
 

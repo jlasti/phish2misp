@@ -4,6 +4,7 @@ from imap_tools import MailBox, MailMessage
 import requests
 import json
 import mailparser
+import hashlib
 
 
 class MISPhandler:
@@ -29,7 +30,8 @@ class MISPhandler:
         else:
             self.post_json_to_misp(json_file)
 
-    def process_eml(self, email):
+    def process_eml(self, eml):
+        email = MailMessage.from_bytes(eml.payload)
         json_file = self.generate_json(email, "eml")
 
         if json_file == "Blocked":
@@ -43,11 +45,26 @@ class MISPhandler:
         else:
             self.post_json_to_misp(json_file)
 
-
-
     def add_json_attachments(self, json_file, email):
+        attachments = email.attachments
+        new_json = json_file
 
-        return
+        for att in attachments:
+            md5 = hashlib.md5()
+            payload = att.payload
+            md5.update(payload)
+
+            append = {"type": "md5",
+                      "category": "Payload delivery",
+                      "to_ids": False,
+                      "distribution": "0",
+                      "comment": "md5 hash of the attachment",
+                      "value": md5.hexdigest()
+                      }
+
+            new_json['Event']['Attribute'].append(append)
+
+        return new_json
 
     def post_json_to_misp(self, json_file):
         headers = {
@@ -59,7 +76,7 @@ class MISPhandler:
         y = json.dumps(json_file)
         data = y.replace('\n', '').replace('\r', '').encode()
         response = requests.post(self.url, headers=headers, data=data, verify=False)
-        print(response)
+        self.logger.log(str(response))
 
     def generate_json(self, email, option):
         mail = mailparser.parse_from_bytes(email.obj.as_bytes())
@@ -73,8 +90,9 @@ class MISPhandler:
         email_src = email.from_
 
         if 'from' in mail.received[0]:
-            email_ipsrc = str(mail.received[0]['from']).split(' ')[1]
-            email_domain = str(mail.received[0]['from']).split(' ')[0]
+            if ' ' in mail.received[0]['from']:
+                email_ipsrc = str(mail.received[0]['from']).split(' ')[1]
+                email_domain = str(mail.received[0]['from']).split(' ')[0]
 
         if self.IP_filter:
             for i in open("IPblacklist.txt", "r"):
@@ -107,7 +125,7 @@ class MISPhandler:
                               "category": "Network activity",
                               "to_ids": False,
                               "distribution": "0",
-                              "comment": "Email message without attachments",
+                              "comment": "Email message submitted to system",
                               "value": email_uid
                               },
                              {"type": "ip-src",
@@ -149,6 +167,8 @@ class MISPhandler:
                     }
             }
 
+            return final_json
+
         else:
             final_json = {
                 "Event":
@@ -185,4 +205,6 @@ class MISPhandler:
                     }
             }
 
-        return final_json
+            return final_json
+
+
