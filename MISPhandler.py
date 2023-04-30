@@ -1,5 +1,3 @@
-import base64
-import os
 from imap_tools import MailBox, MailMessage
 import requests
 import json
@@ -15,11 +13,14 @@ class MISPhandler:
         self.IP_filter = IP_filter
         self.domain_filter = domain_filter
         self.address_filter = address_filter
+        self.logger.log("MISP HANDLER: MISP handler instance successfully invoked!")
 
     def process_forwarded_email(self, email):
+        self.logger.log("MISP HANDLER: I am processing a forwarded email!")
         json_file = self.generate_json(email, "forwarded")
 
         if json_file == "Blocked":
+            self.logger.log("MISP HANDLER: This e-mail was blacklisted and not added to MISP.")
             return
 
         attachments = email.attachments
@@ -31,10 +32,12 @@ class MISPhandler:
             self.post_json_to_misp(json_file)
 
     def process_eml(self, eml):
+        self.logger.log("MISP HANDLER: I am processing an .EML email!")
         email = MailMessage.from_bytes(eml.payload)
         json_file = self.generate_json(email, "eml")
 
         if json_file == "Blocked":
+            self.logger.log("MISP HANDLER: This e-mail was blacklisted and not added to MISP.")
             return
 
         attachments = email.attachments
@@ -46,6 +49,7 @@ class MISPhandler:
             self.post_json_to_misp(json_file)
 
     def add_json_attachments(self, json_file, email):
+        self.logger.log("MISP HANDLER: This e-mail has attachments, I am adding them into the MISP event.")
         attachments = email.attachments
         new_json = json_file
 
@@ -63,10 +67,13 @@ class MISPhandler:
                       }
 
             new_json['Event']['Attribute'].append(append)
+            self.logger.log("MISP HANDLER: Attachment added!")
 
+        self.logger.log("MISP HANDLER: All attachments have been added, returning the final JSON.")
         return new_json
 
     def post_json_to_misp(self, json_file):
+        self.logger.log("MISP HANDLER: Posting the final JSON to MISP!")
         headers = {
             'Accept': 'application/json',
             'content-type': 'application/json',
@@ -76,9 +83,11 @@ class MISPhandler:
         y = json.dumps(json_file)
         data = y.replace('\n', '').replace('\r', '').encode()
         response = requests.post(self.url, headers=headers, data=data, verify=False)
+        self.logger.log("MISP HANDLER: Event posted to MISP, response from MISP is:")
         self.logger.log(str(response))
 
     def generate_json(self, email, option):
+        self.logger.log("MISP HANDLER: Generating a JSON request for this E-mail!")
         mail = mailparser.parse_from_bytes(email.obj.as_bytes())
 
         email_date = str(email.date)[0:10]
@@ -96,18 +105,20 @@ class MISPhandler:
 
         if self.IP_filter:
             for i in open("IPblacklist.txt", "r"):
-                print("Checking IP blacklist : " + str(i) + " / " + email_ipsrc)
                 if i == email_ipsrc:
+                    self.logger.log("MISP HANDLER: This e-mails sender IP is blacklisted! IP: " + str(i))
                     return "Blocked"
 
         if self.domain_filter:
             for i in open("domainblacklist.txt", "r"):
                 if i == email_domain:
+                    self.logger.log("MISP HANDLER: This e-mails sender domain is blacklisted! Domain: " + str(i))
                     return "Blocked"
 
         if self.address_filter:
             for i in open("addressblacklist.txt", "r"):
                 if i == email_src:
+                    self.logger.log("MISP HANDLER: This e-mails sender address is blacklisted! Address: " + str(i))
                     return "Blocked"
 
         if option == "eml":
@@ -167,6 +178,7 @@ class MISPhandler:
                     }
             }
 
+            self.logger.log("MISP HANDLER: JSON generated, returning a JSON for EML!")
             return final_json
 
         else:
@@ -205,6 +217,5 @@ class MISPhandler:
                     }
             }
 
+            self.logger.log("MISP HANDLER: JSON generated, returning a JSON for a forwarded email!")
             return final_json
-
-

@@ -1,8 +1,5 @@
 import os
-
-import imap_tools
 from imap_tools import MailBox, MailMessage
-import email
 import datetime
 
 
@@ -51,6 +48,7 @@ class IMAPhandler:
                                 filename = str(self.email_number) + "_attachment_" + str(attachment_counter) + ".eml"
                                 filepath = os.path.join(current_path, filename)
                                 open(filepath, "wb").write(att.payload)
+                                self.logger.log("IMAP HANDLER: Saved the attachment " + str(attachment_counter) + " locally!")
 
                             misp_handler.process_eml(att)
 
@@ -69,6 +67,8 @@ class IMAPhandler:
                                                                     str(self.email_number) + "_attachment_" + str(
                                                                         attachment_counter) + ".eml")
                                             open(filepath, "wb").write(att.payload)
+                                            self.logger.log("IMAP HANDLER: Saved the attachment " + str(
+                                                attachment_counter) + " locally!")
 
                                         misp_handler.process_eml(att)
 
@@ -76,6 +76,8 @@ class IMAPhandler:
                                         if save_locally:
                                             filepath = os.path.join(current_path, att.filename)
                                             open(filepath, "wb").write(att.payload)
+                                            self.logger.log("IMAP HANDLER: Saved the attachment " + str(
+                                                attachment_counter) + " locally!")
 
                                         misp_handler.process_eml(att)
 
@@ -89,6 +91,8 @@ class IMAPhandler:
 
                                         att_path = os.path.join(current_path, "att_" + att.filename)
                                         open(att_path, "wb").write(att.payload)
+                                        self.logger.log("IMAP HANDLER: Saved the attachment " + str(
+                                            attachment_counter) + " locally!")
 
                             else:
                                 self.logger.log("IMAP HANDLER: This attachment is not EML!")
@@ -100,6 +104,8 @@ class IMAPhandler:
 
                                     att_path = os.path.join(current_path, "att_" + att.filename)
                                     open(att_path, "wb").write(att.payload)
+                                    self.logger.log(
+                                        "IMAP HANDLER: Saved the attachment " + str(attachment_counter) + " locally!")
 
                 else:
                     self.logger.log("IMAP HANDLER: This message doesn't have an attachment.")
@@ -107,5 +113,6 @@ class IMAPhandler:
                     if save_locally:
                         final_file_path = os.path.join(current_path, str(self.email_number) + ".eml")
                         open(final_file_path, "wb").write(message.obj.as_bytes())
+                        self.logger.log("IMAP HANDLER: Saved the attachment e-mail locally!")
 
                     misp_handler.process_forwarded_email(message)

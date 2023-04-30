@@ -61,6 +61,8 @@ def main():
     """
     email_handler.retrieve_emails(conf_save_locally, misp_handler)
 
+    log.log("***MAIN FUNCTION: Run finished, exiting!***")
+
 
 if __name__ == "__main__":
     main()
