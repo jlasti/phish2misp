@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import logger
 import configparser
 import IMAPhandler

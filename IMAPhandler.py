@@ -116,3 +116,5 @@ class IMAPhandler:
                         self.logger.log("IMAP HANDLER: Saved the attachment e-mail locally!")
 
                     misp_handler.process_forwarded_email(message)
+
+            mailbox.delete(mailbox.uids())
