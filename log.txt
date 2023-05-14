@@ -10,3 +10,9 @@
 2023-05-10 19:35:54.614262 - MISP HANDLER: MISP handler instance successfully invoked!
 2023-05-10 19:35:54.614262 - IMAP HANDLER: IMAP handler instance successfully invoked!
 2023-05-10 19:35:54.614262 - IMAP HANDLER: Retrieving emails!
+2023-05-14 20:37:14.053971 - ***NEW START***
+2023-05-14 20:37:14.053971 - MAIN FUNCTION: Loading config file
+2023-05-14 20:37:14.054972 - MAIN FUNCTION: Config successfully loaded!
+2023-05-14 20:37:14.054972 - MISP HANDLER: MISP handler instance successfully invoked!
+2023-05-14 20:37:14.054972 - IMAP HANDLER: IMAP handler instance successfully invoked!
+2023-05-14 20:37:14.054972 - IMAP HANDLER: Retrieving emails!

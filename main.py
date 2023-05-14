@@ -21,7 +21,7 @@ def main():
     conf_IMAP_server = ''  # Address of IMAP server to connect to
     conf_IMAP_login = ''  # E-mail box login
     conf_IMAP_pass = ''  # E-mail box password
-    log = logger.Logger("log.txt")
+    log = logger.Logger(os.path.join(os.path.dirname(__file__),"log.txt"))
     log.log("MAIN FUNCTION: Loading config file")
     config = configparser.ConfigParser()
 

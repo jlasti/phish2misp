@@ -13,7 +13,7 @@ class IMAPhandler:
         self.logger.log("IMAP HANDLER: IMAP handler instance successfully invoked!")
 
     def retrieve_emails(self, save_locally, misp_handler):
-        cwd = os.getcwd() + "/downloads/"
+        cwd = os.path.dirname(__file__) + "/downloads/"
         self.logger.log("IMAP HANDLER: Retrieving emails!")
 
         with MailBox(self.server).login(self.login, self.password, 'INBOX') as mailbox:
