@@ -3,6 +3,7 @@ import requests
 import json
 import mailparser
 import hashlib
+import os
 
 
 class MISPhandler:
@@ -104,19 +105,19 @@ class MISPhandler:
                 email_domain = str(mail.received[0]['from']).split(' ')[0]
 
         if self.IP_filter:
-            for i in open("IPblacklist.txt", "r"):
+            for i in open(os.path.join(os.path.dirname(__file__), "IPblacklist.txt"), "r"):
                 if i == email_ipsrc:
                     self.logger.log("MISP HANDLER: This e-mails sender IP is blacklisted! IP: " + str(i))
                     return "Blocked"
 
         if self.domain_filter:
-            for i in open("domainblacklist.txt", "r"):
+            for i in open(os.path.join(os.path.dirname(__file__), "domainblacklist.txt"), "r"):
                 if i == email_domain:
                     self.logger.log("MISP HANDLER: This e-mails sender domain is blacklisted! Domain: " + str(i))
                     return "Blocked"
 
         if self.address_filter:
-            for i in open("addressblacklist.txt", "r"):
+            for i in open(os.path.join(os.path.dirname(__file__), "addressblacklist.txt"), "r"):
                 if i == email_src:
                     self.logger.log("MISP HANDLER: This e-mails sender address is blacklisted! Address: " + str(i))
                     return "Blocked"
