@@ -3,6 +3,7 @@ import logger
 import configparser
 import IMAPhandler
 import MISPhandler
+import os
 
 '''
 Main class, first loads the config file, starts logging and creates instances for IMAP and MISP handlers
@@ -29,7 +30,8 @@ def main():
     """
 
     try:
-        config.read('config.ini')
+        current_path = os.getcwd()
+        config.read(os.path.join(current_path, 'config.ini'))
 
         conf_save_locally = config.getboolean('global', 'save_locally')
         conf_misp_url = config.get('misp', 'misp_url')
