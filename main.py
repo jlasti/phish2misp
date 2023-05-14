@@ -32,6 +32,7 @@ def main():
     try:
         current_path = os.getcwd()
         config.read(os.path.join(current_path, 'config.ini'))
+        print(os.path.join(current_path, 'config.ini'))
 
         conf_save_locally = config.getboolean('global', 'save_locally')
         conf_misp_url = config.get('misp', 'misp_url')
