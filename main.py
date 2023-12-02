@@ -18,6 +18,7 @@ def main():
     conf_save_locally = True  # save emails locally after downloading them
     conf_misp_url = ''  # URL addr of MISP instance to connect to
     conf_misp_key = ''  # API key of the MISP instance
+    conf_misp_event_name = 'Reported phishing e-mail'   # Create MISP events with this name
     conf_IMAP_server = ''  # Address of IMAP server to connect to
     conf_IMAP_login = ''  # E-mail box login
     conf_IMAP_pass = ''  # E-mail box password
@@ -36,6 +37,7 @@ def main():
         conf_save_locally = config.getboolean('global', 'save_locally')
         conf_misp_url = config.get('misp', 'misp_url')
         conf_misp_key = config.get('misp', 'misp_key')
+        conf_misp_event_name = config.get('misp', 'misp_event_name')
         conf_IMAP_server = config.get('imap', 'IMAP_server')
         conf_IMAP_login = config.get('imap', 'IMAP_login')
         conf_IMAP_pass = config.get('imap', 'IMAP_pass')
@@ -56,7 +58,7 @@ def main():
     """
     Create instances for handlers
     """
-    misp_handler = MISPhandler.MISPhandler(conf_misp_url, conf_misp_key, log, True, True, True)
+    misp_handler = MISPhandler.MISPhandler(conf_misp_url, conf_misp_key, conf_misp_event_name, log, True, True, True)
     email_handler = IMAPhandler.IMAPhandler(conf_IMAP_server, conf_IMAP_login, conf_IMAP_pass, log)
 
     """

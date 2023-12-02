@@ -7,9 +7,10 @@ import os
 
 
 class MISPhandler:
-    def __init__(self, misp_url, misp_key, logger, IP_filter, domain_filter, address_filter):
+    def __init__(self, misp_url, misp_key, misp_event_name, logger, IP_filter, domain_filter, address_filter):
         self.url = misp_url
         self.key = misp_key
+        self.event_name = misp_event_name
         self.logger = logger
         self.IP_filter = IP_filter
         self.domain_filter = domain_filter
@@ -128,7 +129,7 @@ class MISPhandler:
                     {
                         "date": email_date,
                         "threat_level_id": "4",
-                        "info": "Email submitted to MISP",
+                        "info": self.event_name,
                         "published": False,
                         "analysis": "0",
                         "distribution": "0",
@@ -188,7 +189,7 @@ class MISPhandler:
                     {
                         "date": email_date,
                         "threat_level_id": "4",
-                        "info": "Email submitted to MISP",
+                        "info": self.event_name,
                         "published": False,
                         "analysis": "0",
                         "distribution": "0",
