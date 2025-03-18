@@ -106,7 +106,7 @@ class MISPhandler:
                 email_domain = str(mail.received[0]['from']).split(' ')[0]
 
         if self.IP_filter:
-            for i in open(os.path.join(os.path.dirname(__file__), "IPblacklist.txt"), "r"):
+            for i in open(os.path.join(os.path.dirname(__file__), "ipblacklist.txt"), "r"):
                 if i == email_ipsrc:
                     self.logger.log("MISP HANDLER: This e-mails sender IP is blacklisted! IP: " + str(i))
                     return "Blocked"
