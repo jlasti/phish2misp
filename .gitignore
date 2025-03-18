@@ -177,3 +177,6 @@ cython_debug/
 downloads/*
 log.txt
 config.ini
+addressblacklist.txt
+ipblacklist.txt
+domainblacklist.txt
